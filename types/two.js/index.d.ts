@@ -98,6 +98,7 @@ declare namespace Two {
         autostart?: boolean;
         fullscreen?: boolean;
         ratio?: number;
+        domElement?: HTMLElement;
     }
 
     namespace Utils {
